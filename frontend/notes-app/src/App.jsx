@@ -1,4 +1,4 @@
-import Layout from "./components/Layout/Layout";
+import Layout from "./components/Layout/LayOut";
 import Home from "./pages/Home/Home";
 import LogIn from "./pages/LogIn/LogIn";
 import SignUp from "./pages/SignUp/SignUp";
