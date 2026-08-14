@@ -206,13 +206,13 @@ app.put("/edit-note/:id", authenticateToken, async (req, res) => {
 
   const { title, content, tags, isPinned } = req.body;
 
-  const { user } = req.user;
+  const { userId } = req.user;
 
   try {
 
     const note = await noteModel.findOne({
       _id: noteId,
-      userId: user._id
+      userId,
     });
 
     if (!note) {
