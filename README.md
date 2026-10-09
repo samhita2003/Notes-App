@@ -2,8 +2,11 @@
 
 A full-stack notes management application built with React, Node.js, Express, and MongoDB that allows users to securely create, edit, delete, search, and pin their personal notes.
 
-# Live Demo Link 
-Link[https://notes-app-1vd9.vercel.app/]
+## 🚀 Live Demo
+
+🔗 Add your deployed project link here  [Demo Link](https://notes-app-1vd9.vercel.app/)
+
+---
 
 ## Table of Contents
 
